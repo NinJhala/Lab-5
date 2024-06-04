@@ -42,7 +42,7 @@ let add= a + b;
 // Example: let sub;
 // Subtract 'b' from 'a'.
 
-let subtract= a - b; 
+let sub= a - b; 
 
 // Example: let multiply;
 // Multiply 'a' and 'b'.
@@ -83,10 +83,10 @@ let isLessOrEqual= a <= b;
 // Step 5: Apply binary logic with short-circuit evaluation.
 // Example: let andResult;
 // Use '&&' to check if both 'a' and 'b' are greater than 5.
-
+let andResult= (a > 0 && b > 5);
 // Example: let orResult;
 // Use '||' to check if either 'a' or 'b' is greater than 5.
-
+let orResult= (a > 0 || b > 5);
 //
 // Do not edit below this line, this code will display the values on the page
 //
